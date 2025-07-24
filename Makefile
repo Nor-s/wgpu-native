@@ -57,7 +57,7 @@ package: lib-native lib-native-release
 		mkdir -p dist/$$ARCHIVEDIR/include/wgpu; \
 		mkdir -p dist/$$ARCHIVEDIR/lib; \
 		cp ./dist/wgpu-native-git-tag                 dist/$$ARCHIVEDIR; \
-		cp ./ffi/webgpu-headers/webgpu.h              dist/$$ARCHIVEDIR/include/webgpu; \
+		cp ./ffi/webgpu/webgpu.h              dist/$$ARCHIVEDIR/include/webgpu; \
 		cp ./ffi/wgpu.h                               dist/$$ARCHIVEDIR/include/wgpu; \
 		if [ $(OS_NAME) = linux ]; then \
 			cp ./$$LIBDIR/libwgpu_native.so           dist/$$ARCHIVEDIR/lib; \

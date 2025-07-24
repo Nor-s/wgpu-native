@@ -3,7 +3,7 @@
 [![Build Status](https://github.com/gfx-rs/wgpu-native/workflows/CI/badge.svg)](https://github.com/gfx-rs/wgpu-native/actions)
 
 This is a native WebGPU implementation in Rust, based on [wgpu-core](https://github.com/gfx-rs/wgpu).
-The bindings are based on the WebGPU-native header found at `ffi/webgpu-headers/webgpu.h` and wgpu-native specific items in `ffi/wgpu.h`
+The bindings are based on the WebGPU-native header found at `ffi/webgpu/webgpu.h` and wgpu-native specific items in `ffi/wgpu.h`
 
 # Bindings
 

@@ -53,7 +53,7 @@ def collect_function_args():
     funcs = {}
 
     for filename in [
-        "ffi/webgpu-headers/webgpu.h",
+        "ffi/webgpu/webgpu.h",
         # "ffi//wgpu.h",
     ]:
         with open(filename, "rb") as f:
@@ -81,7 +81,7 @@ def collect_structs():
     structs = {}
 
     for filename in [
-        "ffi/webgpu-headers/webgpu.h",
+        "ffi/webgpu/webgpu.h",
         # "ffi//wgpu.h",
     ]:
         with open(filename, "rb") as f:

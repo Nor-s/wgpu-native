@@ -1,6 +1,6 @@
 #include "framework.h"
 #include "stb_image_write.h"
-#include "webgpu-headers/webgpu.h"
+#include "webgpu/webgpu.h"
 #include "wgpu.h"
 #include <assert.h>
 #include <stdbool.h>
